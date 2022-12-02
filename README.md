@@ -2,18 +2,18 @@
 Shiny/R app that generates personalised wordclouds of potential side effects.
 This code is provided 'as is' with no warranty or support
 
-##STEPS to get running:
+## STEPS to get running:
 1. Unzip cave-data into the same directory as app.R
 2. Edit and run app.R (see below)
 
-##STEPS to get update:
+## STEPS to get update:
 1. Download VAERS data for 2021 (https://vaers.hhs.gov/data/datasets.html)
 2. Download and familliarise yourself with the data dictionary (https://vaers.hhs.gov/docs/VAERSDataUseGuide_en_September2021.pdf)
 3. Edit and run preprocess.R (see below)
 4. Edit and run app.R (see below)
 
 
-##preprocess.R
+## preprocess.R
 ------------
 This file preprocesses the VAERS 2021 data into four CSV files (three are used by CAVE).
 
@@ -26,7 +26,7 @@ This file preprocesses the VAERS 2021 data into four CSV files (three are used b
 7. Run preprocess.R
 8. Copy the files in [4], [5] and [6] to the same directory where you pulled CAVE so they are local to app.R
 
-##app.R
+## app.R
 -----
 This is the main Shiny app
 
