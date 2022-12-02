@@ -6,7 +6,7 @@ This code is provided 'as is' with no warranty or support
 1. Unzip cave-data into the same directory as app.R
 2. Edit and run app.R (see below)
 
-## STEPS to get update:
+## STEPS to update CSVs:
 1. Download VAERS data for 2021 (https://vaers.hhs.gov/data/datasets.html)
 2. Download and familliarise yourself with the data dictionary (https://vaers.hhs.gov/docs/VAERSDataUseGuide_en_September2021.pdf)
 3. Edit and run preprocess.R (see below)
